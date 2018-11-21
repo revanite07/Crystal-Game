@@ -45,6 +45,7 @@ function resetGame() {
     crystals = {
         red: 0, cyan: 0, blue: 0, purple: 0
     };
+    value = 0;
 }
 
 function winGame() {
