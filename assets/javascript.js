@@ -26,9 +26,9 @@ $(document).ready(function () {
 });
 
 $('.crystal').on('click', function () {
-    var color = ($(this).attr("data-crystal"));
-    totalScore += crystals[color];
-    console.log("New Score = " + color);
+    var value = ($(this).attr("data-crystal"));
+    totalScore += crystals[value];
+    console.log("New Score = " + value);
     $('#totalScore').text(totalScore);
 
     if (totalScore === number) {
