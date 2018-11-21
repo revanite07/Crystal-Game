@@ -35,7 +35,7 @@ $('.crystal').on('click', function () {
         winGame()
         resetGame()
     }
-    else if (totalScore >= number) {
+    else if (totalScore > number) {
         loseGame()
         resetGame()
     }
