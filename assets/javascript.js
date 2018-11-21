@@ -33,19 +33,21 @@ $('.crystal').on('click', function () {
 
     if (totalScore === number) {
         winGame()
+        resetGame()
     }
     else if (totalScore >= number) {
         loseGame()
+        resetGame()
     }
 });
 
 function resetGame() {
     totalScore = 0;
-    number = 0;
-    crystals = {
-        red: 0, cyan: 0, blue: 0, purple: 0
-    };
-    value = 0;
+    totalScore.innerHTML = 0;
+
+    number = getRandomInt(20, 200);
+    console.log(number);
+
 }
 
 function winGame() {
