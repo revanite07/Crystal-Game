@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(108, 171, 212);
+    font-family: 'Press Start 2P', cursive;
+}
+
+.container {
+    background-color: rgb(194, 194, 139);
+    width: 80%;
+    margin-left: 1%;
+    margin-top: 1%;
+    font-family: 'Press Start 2P', cursive;
+    padding: 1px;
+
+}
+.description{
+    width: 50%;
+    background-color: rgb(243, 103, 220);
+    margin-top: 1%;
+    margin-left: 1%;
+    color: white;
+    text-align: left;
+    font-family: 'Press Start 2P', cursive;
+    float:right;
+    
+}
+h2 {
+    color:white;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+section {
+    margin-top: 28%;
+    margin-left: 1%;
+    padding: 2px;
+    width: 56%;
+    color: white;
+}
+.scoreCounter {
+    margin-left: 1%;
+    color: white;
+}
+.game-number {
+    padding:1px;
+    margin-top:1%;
+    font-size: 20px;
+    color: white;
+
+}
+.win {
+    margin-top:1%;
+    padding:1px;
+    font-size: 20px;
+    color: white;
+}
+.losses {
+    margin-top:1%;
+    padding:1px;
+    font-size: 20px;
+    color: white;
+}

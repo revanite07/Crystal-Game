@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CRYSTAL COUNTER</h1>
+    <div class="container">
+        <div class="description"><p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+
+        <p>You win the game by matching you total score to the random number, you lose the game if your if your total score goes above the random number.</p>
+            
+    <p>The value of each crystal is hidden from you until you click on it.</p>
+            
+<p> Each time when the game starts, the game will change the value of each crystal.</p></div>
+        <div class="game-number"></div>
+        <div class="win"> Wins:</div>
+        <div class="losses">Losses:</div>
+        <section>
+        <img class="crystal" src="assets/images-1.png" data-crystal="red" height="100" width="100">
+        <img class="crystal" src="assets/hqdefault-1.jpg" data-crystal="cyan"height="100" width="100">
+        <img class="crystal" src="assets/images.png" data-crystal="blue"height="100" width="100">
+        <img class="crystal" src="assets/images.jpg" data-crystal="purple" "height="100" width="100">
+        <div class="scoreCounter">
+            </section>
+            <h2>Your Current Score <span id="totalScore"></span></h2>
+        </div>
+        
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/javascript.js"></script>
+    </div>
+</body>
+</html>
